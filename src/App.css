@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* 
+.logo{
+    height: 100px;
+    width: 100px;
+    
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0px 30px;
+  
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+   cursor: pointer;
+    gap: 60px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search{
+    padding: 10px;
+}
+.res-card-container{
+ width :250px;
+   
+    border: 1px solid red;
+    padding: 5px;
+    margin: 20px;
+    height: auto;
+    
+
+}
+.cusins{
+    text-overflow: clip;
+   
+}
+.res-card-container > img{
+    width: 100%;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+}
+.ttt{
+    height: 300px;
+    width: 500px;
+}
+.menu-list{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.resPage-container{
+ display: flex;
+    
+    flex-direction: column;
+    align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.accordian-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(181, 197, 187);
+    margin: 10px 0px;
+    width: 800px;
+} */
